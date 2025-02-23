@@ -1,42 +1,62 @@
 #include <stdio.h>
-  
+         
+        int main (){   
+            
+             char estado_A , estado_B;
+             char codigodacarta_A [10], codigodacarta_B[10];
+             char nomedacidade_A [10], nomedacidade_B [20];
+             int populacao_A, populacao_B, pontosTuristicos_A, pontosTuristicos_B;
+             float area_A, area_B, pib_A, pib_B;
 
-int main() {
-    printf("desafio nivel novato!\n");
+             printf("DIGITE O ESTADO: \n");
+             scanf("%s", &estado_A);
 
-    int população;
-    int numerodepontosturisticos; 
-    float pib;
-    double area;
-    char A;
-    char A01[20];
-    char nome[50];
+             printf("DIGITE O CODIGO DA CARTA: \n");
+             scanf("%s", &codigodacarta_A);
 
-    printf("qual o numero da população: \n");
-    scanf("%d" , &população);
+             printf("DIGITE O NOME DA CIDADE: \n");
+             scanf("%s", &nomedacidade_A);
+                
+             printf("DIGITE O NUMERO DA POPULAÇÃO: \n");
+             scanf("%d", &populacao_A);
 
-    printf("qual o numero de pontos turisticos: \n");
-    scanf("%d" , &numerodepontosturisticos);
+             printf("DIGITE A AREA: \n");
+             scanf("%f", &area_A);
 
-    printf("qual numero do pib: \n");
-    scanf("%f", &pib);
+             printf("DIGITE O PIB: \n");
+             scanf("%f", &pib_A);
 
-    printf("qual numero do area: \n");
-    scanf("%2.f" , &area);
-
-    printf("qual estado da carta: \n");
-    scanf("%s" , &A);
-
-    printf("qual codigo da carta: \n");
-    scanf("%s" , &A01);
-
-    printf("qual nome da cidade: \n");
-    scanf("%s" , &nome );
-
-    printf("Numero da populção: %d - Numerosdepontosturisticos: %d\n" , população, numerodepontosturisticos);
-    printf("Numero do pib: %f - Area: %2.f\n" , pib , area);
-    printf("Estado da carta: %s - Carta: %s\n - Nome da cidade: %s \n" , A , A01 , nome);
+            printf("DIGITE O NUMERO DE PONTOS TURISTICOS: \n");
+            scanf("%s", &pontosTuristicos_A,"\n");
+ 
+           
 
 
-    return 0;
-}
+            printf("DIGITE O ESTADO: \n");
+            scanf("%s", &estado_B);
+
+            printf("DIGITE O CODIGO DA CARTA: \n");
+            scanf("%s", &codigodacarta_B);
+
+            printf("DIGITE O NOME DA CIDADE: \n");
+            scanf("%s", &nomedacidade_B);
+               
+            printf("DIGITE O NUMERO DA POPULAÇÃO: \n");
+            scanf("%d", &populacao_B);
+
+            printf("DIGITE A AREA: \n");
+            scanf("%f", &area_B);
+
+            printf("DIGITE O PIB: \n");
+            scanf("%f", &pib_B);
+
+
+           printf("DIGITE O NUMERO DE PONTOS TURISTICOS: \n");
+           scanf("%s", &pontosTuristicos_B); 
+
+           printf("Carta 1: \n");
+           
+               
+
+            return 0; 
+        }
