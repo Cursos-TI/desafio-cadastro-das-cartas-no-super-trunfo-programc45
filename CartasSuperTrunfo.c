@@ -8,7 +8,10 @@
              int populacao_A, populacao_B, pontosTuristicos_A, pontosTuristicos_B;
              float area_A, area_B, pib_A, pib_B;
 
-        
+             printf("Desafio Cartas Super Trunfo! \n");
+             
+             printf("\n");
+
              printf("DIGITE O ESTADO: \n"); 
              scanf(" %c", &estado_A) ;
 
@@ -30,7 +33,7 @@
              printf("DIGITE O NUMERO DE PONTOS TURISTICOS: \n");
              scanf("%d", &pontosTuristicos_A,"\n") ;
  
-           
+             printf("\n");
 
 
              printf("DIGITE O ESTADO: \n");
