@@ -73,8 +73,22 @@
              printf("PIB: %f \n", pib_B);
              printf("Numeros de Pontos Turísticos: %d \n", pontosTuristicos_B);
 
-             // 
+             return 0;
+                     }
 
+         // Explicação das variáveis:
+         // 1. estado_A, estado_B (char): Armazenam o estado da cidade A e B (representados por um único caractere, como por exemplo, "F" para FORTALEZA).
+         // 2.codigodacarta_A, codigodacarta_B (char[]): São vetores de caracteres (strings) que armazenam o código da carta de cada cidade.
+         // 3.nomedacidade_A, nomedacidade_B (char[]): São vetores de caracteres (strings) que armazenam o nome da cidade A e B.
+         // 4.populacao_A, populacao_B (int): Armazenam a população das cidades A e B como números inteiros.
+         // 5.pontosTuristicos_A, pontosTuristicos_B (int): Armazenam o número de pontos turísticos de cada cidade como números inteiros.
+         // 6.area_A, area_B, pib_A, pib_B (float): Armazenam, respectivamente, a área e o PIB (Produto Interno Bruto) das cidades A e B, como números de ponto flutuante (decimais).
+        
+         // explicação dos formatos
+         // %c:Lê ou exibe um caractere (exemplo: o estado da cidade).
+         // %s:Lê ou exibe uma string (exemplo: o código da carta ou o nome da cidade).
+         // %d:Lê ou exibe um número inteiro (exemplo: a população ou o número de pontos turísticos).
+         // %f:Lê ou exibe um número de ponto flutuante (exemplo: a área ou o PIB da cidade).
 
-             return 0; 
-                       }      
+             
+                     
